@@ -20,5 +20,5 @@ after_success:
   #take images and push to docker hub
   - docker push chriswyc/multi-client
   - docker push chriswyc/multi-nginx
-  - docekr push chriswyc/multi-server
+  - docker push chriswyc/multi-server
   - docker push chriswyc/multi-worker
